@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nathan Reed"]
   spec.email         = ["reednj@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
+  spec.summary       = "load the first existing YAML file"
   spec.homepage      = "https://github.com/reednj/yaml-load_first"
   spec.license       = "MIT"
 
