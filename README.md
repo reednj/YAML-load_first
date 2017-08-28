@@ -5,6 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
+# note that the case is important
 gem 'YAML-load_first'
 ```
 
