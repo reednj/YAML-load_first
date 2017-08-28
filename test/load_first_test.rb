@@ -4,7 +4,7 @@ require 'yaml/load_first'
 
 class LoadFirstTest < Test::Unit::TestCase
     def test_load_single_file
-        data = YAML.load_first_file(['test1.yaml'])
+        data = YAML.load_first_file('test1.yaml')
         assert_not_nil data
         assert_equal data['name'], 'Nathan'
     end
