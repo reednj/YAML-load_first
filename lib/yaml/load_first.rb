@@ -1,5 +1,5 @@
 require 'yaml'
-require "YAML/load_first/version"
+require "yaml/load_first/version"
 
 module YAML
 	def self.load_first_file(files)
